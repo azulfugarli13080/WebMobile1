@@ -14,7 +14,7 @@
         }
 
         .stripe {
-            height: 33.33%;
+            height: 33%;
             width: 100%;
         }
 
@@ -50,8 +50,8 @@
         }
 
         .star {
-            width: 8.33%;
-            height: 8.33%;
+            width: 9%;
+            height: 40%;
             left: 55%;
             top: 50%;
             transform: translateY(-50%);
