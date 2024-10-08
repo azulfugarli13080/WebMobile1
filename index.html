@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #5a6888;
+            color: white;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 150px; /
+            height: 150px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Introduction</h2>
+        <p>My name is Aliya Zulfugarli.You can learn more about me, my education and how to contact me on my personal webpage.<p>
+        
+ <img src="PHOTO-2024-10-08-00-17-41.jpg" alt="Profile Picture">
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>School of Nesretdin Tusi.
+        Ada school.
+         Now i am 3rd year student at ADA University .Bachelor of Information Technology</p>
+
+        <h2>Weekly Schedule</h2>
+        <table border="1">
+            <tr>
+                <th>Time</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+               
+            </tr>
+            <tr>
+                <td>8:30</td>
+                <td> no lesson </td>
+                <td>Web&MobileI</td>
+                <td>no lesson</td>
+                <td>Web&MobileI</td>
+                <td> no lesson</td>
+              
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>no lesson</td>
+                <td>no lesson</td>
+                <td>no lesson</td>
+                <td>no lesson</td>
+               <td> Ordinary Different'l Equations</td>
+            </tr>
+
+            <tr>
+                <td>1:00</td>
+                <td>no lesson</td>
+                <td>Ordinary Different'l Equations</td>
+                <td>Off</td>
+                <td>PhysicsI</td>
+                <td> no lesson</td>
+                
+            </tr>
+            <tr>
+                <td>2:30</td>
+                <td>Physics 1</td>
+                <td>Literature of Azerbaijan</td>
+                <td> Physics 1</td>
+                <td>Literature of Azerbaijan</td>
+                <td> no lesson</td>
+            </tr>
+            <tr>
+                <td>4:00</td>
+                <td>no lesson</td>
+                <td> no lesson</td>
+                <td>Intro to Computer Network</td>
+                <td>Off</td>
+                <td> no lesson </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:aliya.zulfugarli@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+</html>
